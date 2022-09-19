@@ -5,6 +5,7 @@ const myFunction = (op, arr) => {
     for (let i = 0; i < arr.length; i++) {
        if(isNaN(parseInt(arr[i]))){
            x = arr[i];
+           break
        }
     }
 
