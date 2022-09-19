@@ -22,7 +22,7 @@ const myFunction = (op, arr) => {
              case "med":
                 let newArr = myArr.sort((a,b) => a-b);
                 let len = newArr.length-1;
-                if(newArr[len/2]%1 == 0){
+                if(newArr[len/2]%1 === 0){
                     return newArr[len/2];
                 }else{
                     return (newArr[Math.floor(len/2)]+newArr[Math.ceil(len/2)])/2;
